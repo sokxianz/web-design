@@ -1,0 +1,25 @@
+body {
+    background: pink;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+div#name {
+    background-image: url("image/1600w-drvq3zaYl2E.webp");
+}
+
+div#images {
+    text-align: center;
+    background-color: blue;
+    /*HEX#20EDFD*/
+    background-image: url(image/1600w-drvq3zaYl2E.webp);
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+p {
+    font-size: 50;
+}
