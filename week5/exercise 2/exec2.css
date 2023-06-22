@@ -1,0 +1,17 @@
+div#name {
+
+    background-image: url(image/sky.webp);
+    background-repeat: cover;
+    padding: 30px;
+    border: 1px solid lightskyblue;
+    margin: 10px;
+}
+
+div#image {
+    background-image: url(image/blue.jpg);
+    background-repeat: repeat;
+    padding: 30px;
+    border: 1px solid lightblue;
+    margin: 10px;
+
+}

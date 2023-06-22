@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+div#text {
+    float: left;
+    padding: 30px 10px 30px 50px;
+    margin: 100px 30px 30px 300px;
+    text-align: center;
+    border-style: solid none solid solid;
+    color: white;
+    border-style: none none none solid;
+
+
+}
+
+
+div#image-with-line {
+    float: left;
+    margin: 30px 30px 30px 30px;
+    padding: 30px 30px 30px 50px;
+    border-style: none solid none solid;
+    color: white;
+    width: auto;
+    height: auto;
+}
