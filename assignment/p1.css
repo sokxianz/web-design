@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+}
+
+#container {
+    max-width: 1200px;
+    margin: auto;
+
+
+}
+
+.topnav {
+    display: flex;
+    background-color: #19376D;
+    justify-content: space-between;
+    padding: 14px 16px;
+
+
+}
+
+.topnav div a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #F1F1F1;
+
+}
+
+.topnav a :hover {
+    background-color: lightblue;
+
+
+
+}
+
+.app-body {
+    height: 100%;
+    display: grid;
+    grid-template-columns: minmax(min-content, 400px) minmax(max-content, 3fr) minmax(min-content,
+            600px);
+
+    column-gap: 4rem;
+    padding-top: 0rem;
+    padding-right: 0%;
+    padding-left: 0%;
+
+    @media (max-width: 1200px) {
+        grid-template-columns: 1fr;
+
+        &>* {
+            margin-bottom: 3.5rem;
+        }
+    }
+}
+
+.app-body-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #19376D;
+
+    @media (max-width: 1200px) {
+        display: none;
+    }
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--c-text-tertiary);
+
+    a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        transition: 0.25s ease;
+
+        * {
+            transition: 0.25s ease;
+        }
+
+        &+a {
+            margin-top: 1.25rem;
+        }
+
+        &:hover,
+        &:focus {
+            transform: translateX(4px);
+            color: var(--c-text-primary);
+        }
+    }
+}
+
+.box {
+    position: relative;
+    background-image: url("image/computer.jpg");
+    height: 420px;
+    width: 550px;
+    padding-left: 0%;
+    display: flex;
+}
+
+.small {
+    position: absolute;
+    right: 16px;
+    bottom: 8px;
+    color: #F1F1F1;
+
+}

@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+}
+
+#container {
+    background-color: #F1F1F1;
+    max-width: 1024px;
+    margin: auto;
+    align-self: flex-start;
+}
+
+#header {
+    background-color: #F1F1F1;
+    padding: 30px;
+    margin: 10px;
+    border: 50px;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+
+.topnav {
+
+    background-color: #333;
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+    color: #F1F1F1
+}
+
+.topnav div a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+.topnav a :hover {
+    background-color: #ddd;
+    color: black;
+
+
+}
+
+.con {
+    background-color: #333;
+    text-align: center;
+    padding: 30px 10px 30px 10px;
+    margin: 10px 20px 10px 20px;
+    color: #F1F1F1
+}
+
+.con div a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+.con a :hover {
+    background-color: #ddd;
+    color: black;
+
+
+}
+
+.row {
+    display: flex;
+    margin: 10px 20px 10px 20px;
+    background-color: grey;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.column {
+    width: 50%;
+    padding: 30px 20px 30px 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+
+    }
+}
+
+.cc {
+    display: flex;
+    margin: 10px 20px 10px 20px;
+    background-color: grey;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.box {
+    width: 50%;
+    padding: 30px 20px 30px 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        width: 100%;
+
+    }
+}
+
+
+footer {
+    background-color: grey;
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+}
